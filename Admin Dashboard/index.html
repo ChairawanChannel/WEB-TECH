@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
-
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./index.css" />
     <link
@@ -38,415 +37,231 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700&display=swap"
     />
+    <title>Admin Dashboard</title>
   </head>
+
   <body>
     <div class="admin-dashboard">
-      <header class="navigation-bar">
-        <div class="shape"></div>
-        <div class="logo-wrapper">
-          <a class="logo">LOGO</a>
+      <header class="navbar">
+        <div class="logo-container">
+          <a class="logo" href="#"><img class="logo-img" src="C:\xampp\htdocs\WEB TECH\Assets\logoWT.png" alt=""></a>
         </div>
-        <div class="list-navigation">
+        <nav class="nav-links">
           <a href="#">Home</a>
           <a href="#">Blog</a>
           <a href="#">Portfolio</a>
-          <a href="#">AdminDashboard</a>
-        </div>
+          <a href="#">Admin Dashboard</a>
+        </nav>
       </header>
-      <main class="content">
-        <div class="sidebar">
-          <div class="rectangle-div"></div>
-          <div class="sub-title">
-            <span>Menu</span>
+      <main class="main-content">
+        <aside class="sidebar"><span>Menu</span>
+          <div class="menu-item">
+            
+            <img
+              class="menu-icon"
+              src="./public/gridfill-1.svg"
+              alt="Dashboard Icon"
+            />
+            <a href="#" class="menu-link">Dashboard</a>
           </div>
-          <div class="frame-wrapper9">
-            <div class="grid-fill-1-parent">
-              <img
-                class="grid-fill-1-icon"
-                loading="lazy"
-                alt=""
-                src="./public/gridfill-1.svg"
-              />
-              <div class="dashboard-components">
-                <a href="#" class="components">Dashboard</a>
-              </div>
-            </div>
+          <div class="divider"></div><span>More</span>
+          <div class="menu-item">
+            <img
+              class="menu-icon"
+              src="./public/cashstack-1.svg"
+              alt="Components Icon"
+            />
+            <a href="#" class="menu-link">Components</a>
           </div>
-          <div class="content-divider"></div>
-          <div class="sub-title">
-            <span>More</span>
-          </div>
-          <div class="frame-wrapper10">
-            <div class="grid-fill-1-parent">
-              <img
-                class="grid-fill-1-icon"
-                loading="lazy"
-                alt=""
-                src="./public/cashstack-1.svg"
-              />
-
-              <div class="dashboard-components">
-                <a href="#" class="components">Components</a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <section class="content-inner">
-          <div class="social-and-about-items-parent">
-            <header class="social-and-about-items">
-              <div class="social-and-about-details">
-                <a class="social">SOCIAL</a>
-              </div>
-              <div class="about5">
-                <div class="group-div">
-                  <div class="frame-child4"></div>
-                  <div class="profile-views">
-                    <div class="rectangle-parent3">
-                      <div class="frame-child5"></div>
-                      <img
-                        class="eye-1-icon"
-                        loading="lazy"
-                        alt=""
-                        src="./public/eye-1.svg"
-                      />
-                    </div>
-                  </div>
-                  <div class="followers">
-                    <h3 class="profile-views1">profile views</h3>
-                    <div class="empty-followers">
-                      <div class="separator">921.032</div>
-                    </div>
+        </aside>
+        <section class="content-section">
+          <header class="content-header">
+            <div class="content-info">
+              <h3 class="review-title">Social</a>
+              <div class="stats-group">
+                <div class="stats-item">
+                  <img
+                    class="stats-icon"
+                    src="./public/eye-1.svg"
+                    alt="Eye Icon"
+                  />
+                  <div class="stats-info">
+                    <h3>Profile Views</h3>
+                    <p>921,032</p>
                   </div>
                 </div>
-                <div class="rectangle-parent4">
-                  <div class="frame-child6"></div>
-                  <div class="frame-wrapper11">
-                    <div class="rectangle-parent3">
-                      <div class="frame-child5"></div>
-                      <img
-                        class="profile-icon"
-                        loading="lazy"
-                        alt=""
-                        src="./public/profile.svg"
-                      />
-                    </div>
-                  </div>
-                  <div class="followers">
-                    <h3 class="followers1">Followers</h3>
-                    <div class="wrapper">
-                      <div class="div">300.000</div>
-                    </div>
+                <div class="stats-item">
+                  <img
+                    class="stats-icon"
+                    src="./public/profile.svg"
+                    alt="Profile Icon"
+                  />
+                  <div class="stats-info">
+                    <h3>Followers</h3>
+                    <p>300,000</p>
                   </div>
                 </div>
-                <div class="about-details">
-                  <div class="rectangle-parent6">
-                    <div class="frame-child6"></div>
-                    <div class="frame-wrapper11">
-                      <div class="rectangle-parent3">
-                        <div class="frame-child5"></div>
-                        <img
-                          class="profile-add-icon"
-                          loading="lazy"
-                          alt=""
-                          src="./public/profileadd.svg"
-                        />
-                      </div>
-                    </div>
-                    <div class="followers">
-                      <h3 class="following1">following</h3>
-                      <div class="wrapper">
-                        <div class="separator1">1.000.000</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="about-details1">
-                  <div class="rectangle-parent6">
-                    <div class="frame-child6"></div>
-                    <div class="frame-wrapper11">
-                      <div class="rectangle-parent3">
-                        <div class="frame-child5"></div>
-                        <img
-                          class="profile-add-icon"
-                          loading="lazy"
-                          alt=""
-                          src="./public/profileadd.svg"
-                        />
-                      </div>
-                    </div>
-                    <div class="followers">
-                      <h3 class="following1">following</h3>
-                      <div class="wrapper">
-                        <div class="separator1">1.000.000</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </header>
-            <div class="chart-content-wrapper">
-              <div class="chart-content">
-                <h2 class="chart-order">CHART ORDER</h2>
-                <div class="frame-parent12">
-                  <div class="rectangle-parent10">
-                    <div class="frame-child12"></div>
-                    <div class="chart-bars">
-                      <div class="chart-bar-labels">
-                        <div class="sunday">Sunday</div>
-                        <div class="monday">Monday</div>
-                        <div class="tuesday">Tuesday</div>
-                        <div class="wednesday">Wednesday</div>
-                        <div class="thursday">Thursday</div>
-                        <a class="friday">Friday</a>
-                        <div class="saturday">Saturday</div>
-                      </div>
-                    </div>
-                    <div class="vector-parent">
-                      <img
-                        class="vector-icon"
-                        alt=""
-                        src="./public/vector-7.svg"
-                      />
-
-                      <div class="frame-wrapper14">
-                        <div class="chart-bar-labels">
-                          <div class="sunday">Sunday</div>
-                          <div class="monday">Monday</div>
-                          <div class="tuesday">Tuesday</div>
-                          <div class="wednesday">Wednesday</div>
-                          <div class="thursday">Thursday</div>
-                          <div class="friday1">Friday</div>
-                          <div class="saturday">Saturday</div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="dot4"></div>
+                <div class="stats-item">
+                  <img
+                    class="stats-icon"
+                    src="./public/profileadd.svg"
+                    alt="Following Icon"
+                  />
+                  <div class="stats-info">
+                    <h3>Following</h3>
+                    <p>1,000,000</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div class="social-and-about-details">
-              <h2 class="review">REVIEW</h2>
-            </div>
-            <div class="frame-wrapper15">
-              <div class="buyer-1-parent">
-                <div class="buyer-1">
-                  <div class="buyer-1-child"></div>
-                  <div class="customer-info">
-                    <div class="profile-picture"></div>
-                    <div class="admin-items">
-                      <div class="dicky-parent">
-                        <div class="dicky">Dicky</div>
-                        <div class="days-ago">2 days ago</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="lorem-ipsum-is-simply-dummy-te-wrapper">
-                    <div class="lorem-ipsum-is">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text
-                    </div>
-                  </div>
-                  <div class="review-rating">
-                    <div class="review-stars">
-                      <div class="review-stars-container">
-                        <div class="rating">
-                          <img
-                            class="star-left-icon"
-                            loading="lazy"
-                            alt=""
-                            src="./public/star-1.svg"
-                          />
-
-                          <img
-                            class="star-left-icon"
-                            loading="lazy"
-                            alt=""
-                            src="./public/star-1.svg"
-                          />
-
-                          <img
-                            class="star-left-icon1"
-                            loading="lazy"
-                            alt=""
-                            src="./public/star-3.svg"
-                          />
-
-                          <img
-                            class="star-left-icon"
-                            loading="lazy"
-                            alt=""
-                            src="./public/star-4.svg"
-                          />
-
-                          <img
-                            class="star-left-icon"
-                            loading="lazy"
-                            alt=""
-                            src="./public/star-4.svg"
-                          />
-                        </div>
-                      </div>
-                      <div class="rating-separator">40</div>
-                    </div>
+          </header>
+          <div class="chart-section">
+            <h2 class="chart-title">Chart Order</h2>
+              <div class="chart-container">
+                <canvas id="earningsChart"></canvas>
+                </div>
+          </div>
+          <div class="review-section">
+            <h2 class="review-title">Review</h2>
+            <div class="reviews">
+              <div class="review-item">
+                <div class="review-header">
+                  <div class="review-profile-pic"></div>
+                  <div class="review-info">
+                    <h3>Dicky</h3>
+                    <p>2 days ago</p>
                   </div>
                 </div>
-                <div class="buyer-1">
-                  <div class="buyer-1-child"></div>
-                  <div class="customer-info">
-                    <div class="profile-picture"></div>
-                    <div class="admin-items">
-                      <div class="dicky-parent">
-                        <div class="dicky">Dicky</div>
-                        <div class="days-ago">2 days ago</div>
-                      </div>
-                    </div>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry...
+                </p>
+                <div class="review-rating">
+                  <div class="stars">
+                    <img src="./public/star-1.svg" alt="Star Icon" />
+                    <img src="./public/star-1.svg" alt="Star Icon" />
+                    <img src="./public/star-3.svg" alt="Star Icon" />
+                    <img src="./public/star-4.svg" alt="Star Icon" />
+                    <img src="./public/star-4.svg" alt="Star Icon" />
                   </div>
-                  <div class="lorem-ipsum-is-simply-dummy-te-wrapper">
-                    <div class="lorem-ipsum-is">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text
-                    </div>
-                  </div>
-                  <div class="review-rating">
-                    <div class="frame-parent14">
-                      <div class="star-wrapper">
-                        <img
-                          class="star-icon"
-                          loading="lazy"
-                          alt=""
-                          src="./public/star-1.svg"
-                        />
-                      </div>
-                      <div class="empty-stars-wrapper">
-                        <div class="empty-stars">
-                          <img
-                            class="star-left-icon"
-                            loading="lazy"
-                            alt=""
-                            src="./public/star-1.svg"
-                          />
-
-                          <img
-                            class="star-left-icon1"
-                            loading="lazy"
-                            alt=""
-                            src="./public/star-3.svg"
-                          />
-
-                          <img
-                            class="star-left-icon"
-                            loading="lazy"
-                            alt=""
-                            src="./public/star-4.svg"
-                          />
-
-                          <img
-                            class="star-left-icon"
-                            alt=""
-                            src="./public/star-4.svg"
-                          />
-                        </div>
-                      </div>
-                      <div class="rating-separator">40</div>
-                    </div>
-                  </div>
-                </div>
-                <div class="buyer-1">
-                  <div class="buyer-1-child"></div>
-                  <div class="customer-info">
-                    <div class="profile-picture"></div>
-                    <div class="admin-items">
-                      <div class="dicky-parent">
-                        <div class="dicky">Dicky</div>
-                        <div class="days-ago">2 days ago</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="lorem-ipsum-is-simply-dummy-te-wrapper">
-                    <div class="lorem-ipsum-is">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text
-                    </div>
-                  </div>
-                  <div class="review-rating">
-                    <div class="review-stars">
-                      <div class="review-stars-container">
-                        <div class="rating">
-                          <img
-                            class="star-left-icon"
-                            alt=""
-                            src="./public/star-1.svg"
-                          />
-
-                          <img
-                            class="star-left-icon"
-                            alt=""
-                            src="./public/star-1.svg"
-                          />
-
-                          <img
-                            class="star-left-icon1"
-                            loading="lazy"
-                            alt=""
-                            src="./public/star-3.svg"
-                          />
-
-                          <img
-                            class="star-left-icon"
-                            alt=""
-                            src="./public/star-4.svg"
-                          />
-
-                          <img
-                            class="star-left-icon"
-                            alt=""
-                            src="./public/star-4.svg"
-                          />
-                        </div>
-                      </div>
-                      <div class="rating-separator">40</div>
-                    </div>
-                  </div>
+                  <span>40</span>
                 </div>
               </div>
+              <div class="review-item">
+                <div class="review-header">
+                  <div class="review-profile-pic"></div>
+                  <div class="review-info">
+                    <h3>Dicky</h3>
+                    <p>2 days ago</p>
+                  </div>
+                </div>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry...
+                </p>
+                <div class="review-rating">
+                  <div class="stars">
+                    <img src="./public/star-1.svg" alt="Star Icon" />
+                    <img src="./public/star-1.svg" alt="Star Icon" />
+                    <img src="./public/star-3.svg" alt="Star Icon" />
+                    <img src="./public/star-4.svg" alt="Star Icon" />
+                    <img src="./public/star-4.svg" alt="Star Icon" />
+                  </div>
+                  <span>40</span>
+                </div>
+              </div>
+              <div class="review-item">
+                <div class="review-header">
+                  <div class="review-profile-pic"></div>
+                  <div class="review-info">
+                    <h3>Dicky</h3>
+                    <p>2 days ago</p>
+                  </div>
+                </div>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and
+                  typesetting industry...
+                </p>
+                <div class="review-rating">
+                  <div class="stars">
+                    <img src="./public/star-1.svg" alt="Star Icon" />
+                    <img src="./public/star-1.svg" alt="Star Icon" />
+                    <img src="./public/star-3.svg" alt="Star Icon" />
+                    <img src="./public/star-4.svg" alt="Star Icon" />
+                    <img src="./public/star-4.svg" alt="Star Icon" />
+                  </div>
+                  <span>40</span>
+                </div>
+              </div>
+              <!-- More review items here -->
             </div>
           </div>
         </section>
       </main>
     </div>
+
     <footer class="site-footer">
       <div class="footer-content">
-          <div class="footer-section about">
-              <h2>About Us</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut nisi vel nulla tincidunt dapibus.</p>
+        <div class="footer-section about">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut
+            nisi vel nulla tincidunt dapibus.
+          </p>
+        </div>
+        <div class="footer-section links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section social">
+          <h2>Follow Us</h2>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
           </div>
-          <div class="footer-section links">
-              <h2>Quick Links</h2>
-              <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Blog</a></li>
-                  <li><a href="#">Portfolio</a></li>
-                  <li><a href="#">Contact</a></li>
-              </ul>
-          </div>
-          <div class="footer-section social">
-              <h2>Follow Us</h2>
-              <div class="social-icons">
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
-                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
-              </div>
-          </div>
+        </div>
       </div>
       <div class="footer-bottom">
-          <p>&copy; 2024 Your Website | Designed by You</p>
+        <p>&copy; 2024 Your Website | Designed by You</p>
       </div>
-  </footer>
-  
+    </footer>
   </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  var ctx = document.getElementById('earningsChart').getContext('2d');
+  var earningsChart = new Chart(ctx, {
+      type: 'line', // Jenis grafik (line)
+      data: {
+          labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'], // Hari/bulan
+          datasets: [{
+              label: 'Balance',
+              data: [5000, 10000, 15000, 20000, 25000, 30000, 35000, 40000, 45000, 50000, 55000, 60000], // Data balance
+              backgroundColor: 'rgba(54, 162, 235, 0.2)',
+              borderColor: 'rgba(54, 162, 235, 1)',
+              borderWidth: 2,
+              fill: true, // Fill area di bawah garis
+              tension: 0.4 // Membuat garis lebih halus
+          }]
+      },
+      options: {
+          scales: {
+              y: {
+                  beginAtZero: true // Sumbu Y mulai dari 0
+              }
+          },
+          plugins: {
+              legend: {
+                  display: false // Menghilangkan legend jika tidak diperlukan
+              }
+          }
+      }
+  });
+</script>
